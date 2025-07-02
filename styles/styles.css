@@ -111,8 +111,7 @@ margin-top: 16px;
 
 @media (max-width: 768px) {
   .tarjetas{
-    margin-bottom: 16px;
-}   
+    margin-bottom: 16px;}   
 }
 
 /*FORMULARIO*/
@@ -140,6 +139,28 @@ label {
 
 @media (max-width: 576px) {
   .formu_g {
+    padding: 16px;}
+}
+/*CARRUSEL*/
+.carrusel_1 img {
+  height: 500px;   
   padding: 16px;
 }
+
+.carousel-caption {
+  max-width: 500px;
+   margin: auto;
+  text-align: center;
+}
+.carrusel_propio {   
+  color: rgba(65, 58, 58, 0.377);
+  padding: 32px;
+}
+
+@media (max-width: 768px) {
+  .carousel-caption {
+    font-size: 16px;
+    padding: 16px;}
+  .carrusel_1 img {
+    height: 200px;}
 }
