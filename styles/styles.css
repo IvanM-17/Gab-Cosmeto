@@ -72,7 +72,7 @@ footer {
 /*ADAPTACION PANTALLAS*/
 @media (max-width: 768px) {
   .contenido .texto h1 {
-    font-size: 32px;
+    font-size: 32px; 
 }
 .nav-link2 {
 margin-left: 0;
@@ -110,9 +110,9 @@ margin-top: 16px;
 }
 
 @media (max-width: 768px) {
-  .tarjeta-custom {
-  margin-bottom: 1rem;
-}
+  .tarjetas{
+    margin-bottom: 16px;
+}   
 }
 
 /*FORMULARIO*/
@@ -139,7 +139,7 @@ label {
 }
 
 @media (max-width: 576px) {
-  .formulario-custom {
-  padding: 1rem;
+  .formu_g {
+  padding: 16px;
 }
 }
