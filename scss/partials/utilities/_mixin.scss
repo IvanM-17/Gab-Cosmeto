@@ -1,0 +1,28 @@
+@mixin style_gen($bg-color, $text-color, $radius) {
+  background-color: $bg-color;
+  border: none;
+  border-radius: $radius;
+  color: $text-color;
+  padding-left: 1.2rem;
+  font-size: 1rem;
+
+  &:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255,255,255,0.3);
+    border: none;
+  }
+}
+
+@mixin style_button($bg, $text, $radius) {
+  background-color: $bg;
+  color: $text;
+  font-weight: 600;
+  border: none;
+  border-radius: $radius;
+  padding: 0.8rem;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: lighten($bg, 8%);
+    color: darken($text, 5%);
+  }
+}
