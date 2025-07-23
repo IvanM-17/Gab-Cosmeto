@@ -1,0 +1,56 @@
+@use '../utilities/variables' as *;
+
+// ===== Formulario =====
+.formulario_propio {
+     width: 100%;
+     max-width: 500px;
+
+  .form-floating {
+    label {
+      color: $color-label;
+      font-size: 0.9rem;
+    }
+
+    .form-control,
+    .form-select {
+      background-color: $color-input;
+      border: none;
+      border-radius: $radius;
+      color: $color-texto;
+      padding-left: 1.2rem;
+      font-size: 1rem;
+
+      &:focus {
+        box-shadow: 0 0 0 0.2rem rgba(255,255,255,0.3);
+        border: none;
+      }
+    }
+
+    textarea.form-control {
+      border-radius: $radius;
+      resize: none;
+    }
+  }
+
+  button.btn {
+    background-color: $color-boton;
+    color: $color-boton-texto;
+    font-weight: 600;
+    border: none;
+    border-radius: $radius;
+    padding: 0.8rem;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: lighten($color-boton, 8%);
+      color: darken($color-boton-texto, 5%);
+    }
+  }
+}
+
+// ===== Responsivo =====
+@media (min-width: 768px) {
+  .formu_g {
+    padding: 4rem 0;
+  }
+}

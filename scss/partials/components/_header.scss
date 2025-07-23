@@ -1,0 +1,12 @@
+@use '../utilities/variables' as *;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: $main-color;
+}
+  .logo img {
+    width: 60px;
+    height: auto;
+  }

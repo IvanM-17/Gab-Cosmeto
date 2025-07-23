@@ -1,0 +1,67 @@
+@use '../utilities/variables' as *;
+
+body {
+  margin: 0;
+  font-family: $font-main;
+  background-color: $main-color;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+  
+}
+.gen {
+    max-width: 1200px; // ancho container bootstrap
+    margin: 3rem auto; // centrado y más separación
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+
+  .gen_text {
+    flex: 1 1 400px;
+    padding: 16px;
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 8px;
+    }
+
+    h2 {
+      font-weight: normal;
+      margin-bottom: 16px;
+    }
+
+    p {
+      line-height: 1.5;
+      margin-bottom: 16px;
+    }
+
+    .ig_social {
+      color: $accent-color;
+      font-weight: bold;
+    }
+
+    .icons_social {
+      display: flex;
+      gap: 1rem;
+      a img {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+  .gen_img {
+    flex: 1 1 300px;
+    padding: 16px;
+    img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 10px;
+    }
+  }
+}
+main.gen {
+  flex: 1;             // esto empuja el footer al fondo
+}

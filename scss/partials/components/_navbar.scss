@@ -1,0 +1,30 @@
+@use '../utilities/variables' as *;
+// Colores
+$main-color: #33477a; // azul
+$accent-color: #a26774; // rosado/vino
+$white: #fff;
+
+.nav_propia {
+  padding: 32px;
+  border: none;
+    
+  .nav-link2 {
+    background-color: $white;
+    color: $accent-color !important;
+    margin: 0 0.3rem;
+    padding: 0.4rem 0.9rem;
+    border-radius: 1.5rem;
+    font-weight: bold;
+    transition: 0.3s ease;
+
+    &:hover {
+      background-color: $accent-color;
+      color: $white !important;
+    }
+
+    &.active {
+      background-color: $accent-color;
+      color: $white !important;
+    }
+  }
+}

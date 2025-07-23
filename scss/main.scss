@@ -1,0 +1,11 @@
+// BASE
+@use 'partials/base/reset' as *; // ejemplo si tenés un archivo de variables
+// COMPONENTES
+@use 'partials/components/body' as *;
+@use 'partials/components/catalogo1' as *;
+@use 'partials/components/contacto1' as *;
+@use 'partials/components/footer' as *;
+@use 'partials/components/header' as *;
+@use 'partials/components/navbar' as *;
+@use 'partials/components/sobrenosotros1' as *;
+@use 'partials/components/turnos1' as *;
