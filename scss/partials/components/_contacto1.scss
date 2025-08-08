@@ -34,3 +34,21 @@
     padding: 4rem 0;
   }
 }
+
+.info-contacto {
+  h1 {
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1rem;
+    color: #333;
+  }
+}
+
+.mapa {
+  iframe {
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+}

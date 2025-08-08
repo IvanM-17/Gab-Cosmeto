@@ -116,6 +116,33 @@ main.gen {
   display: inline-block;
 }
 
+.titulo-catalogo {
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+  position: relative;
+  display: inline-block;
+}
+.titulo-catalogo::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  height: 4px;
+  background-color: #c49bbb;
+  border-radius: 2px;
+}
+@media (max-width: 768px) {
+  .titulo-catalogo {
+    font-size: 2rem;
+  }
+}
+
 .formulario_propio {
   width: 100%;
   max-width: 500px;
@@ -161,6 +188,19 @@ main.gen {
     padding: 4rem 0;
   }
 }
+.info-contacto h1 {
+  margin-bottom: 1rem;
+}
+.info-contacto p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.mapa iframe {
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 .footer {
   text-align: center;
   padding: 1rem;
@@ -201,6 +241,61 @@ main.gen {
 .nav_propia .nav-link2.active {
   background-color: #a26774;
   color: #fff !important;
+}
+
+.carousel-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+.carousel-wrapper .carousel {
+  max-width: 800px;
+  width: 100%;
+}
+.carousel-wrapper .carousel-img {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: contain;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+}
+.carousel-wrapper .caption-bg {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+.carousel-wrapper .caption-bg h5, .carousel-wrapper .caption-bg p {
+  color: white;
+  margin: 0;
+}
+
+.titulo-carrusel {
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+  position: relative;
+  display: inline-block;
+}
+.titulo-carrusel::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  height: 4px;
+  background-color: #c49bbb;
+  border-radius: 2px;
+}
+@media (max-width: 768px) {
+  .titulo-carrusel {
+    font-size: 2rem;
+  }
 }
 
 body {
@@ -250,6 +345,33 @@ h2 {
 }
 .formulario_turnos button:hover {
   background-color: rgb(254.7884615385, 254.2115384615, 254.2115384615);
+}
+
+.titulo-turno {
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+  position: relative;
+  display: inline-block;
+}
+.titulo-turno::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  height: 4px;
+  background-color: #c49bbb;
+  border-radius: 2px;
+}
+@media (max-width: 768px) {
+  .titulo-turno {
+    font-size: 2rem;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
