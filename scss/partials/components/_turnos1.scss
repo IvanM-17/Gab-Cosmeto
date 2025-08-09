@@ -4,6 +4,12 @@ body {
   background-color: $color-fondo;
   font-family: 'Helvetica Neue', Arial, sans-serif;
   color: $color-texto;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1; // Empuja el footer hacia abajo
 }
 
 .turnos_container {
@@ -80,3 +86,6 @@ h2 {
     font-size: 2rem;
   }
 }
+
+
+
