@@ -298,6 +298,31 @@ main.gen {
   }
 }
 
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.carousel-caption h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.carousel-caption p {
+  font-size: 1rem;
+}
+@media (max-width: 767px) {
+  .carousel-caption {
+    bottom: 10px;
+    padding: 0.5rem;
+  }
+  .carousel-caption h5 {
+    font-size: 1rem;
+  }
+  .carousel-caption p {
+    font-size: 0.85rem;
+  }
+}
+
 body {
   background-color: #2f4a75;
   font-family: "Helvetica Neue", Arial, sans-serif;

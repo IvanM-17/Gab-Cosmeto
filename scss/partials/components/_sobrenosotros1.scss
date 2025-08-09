@@ -56,3 +56,32 @@
     font-size: 2rem;
   }
 }
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.4); // fondo semitransparente
+  padding: 1rem;
+  border-radius: 0.5rem;
+
+  h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  // Ajustes para mobile
+  @media (max-width: 767px) {
+    bottom: 10px; // lo baja un poco
+    padding: 0.5rem;
+
+    h5 {
+      font-size: 1rem;
+    }
+
+    p {
+      font-size: 0.85rem;
+    }
+  }
+}
